@@ -19,4 +19,4 @@ A simple Minecraft datapack that allows you to break and place blocks from any d
 * Type /reload if you are in the world during the installation.
 * The pack should now be enabled in the world and you should see an in-game message.
 
-## [Releases](https://github.com/TechnoBro03/BetterPearls/releases)
+## [Releases](https://github.com/TechnoBro03/BeyondReach/releases)
