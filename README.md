@@ -11,6 +11,7 @@ A simple Minecraft datapack that allows you to break and place blocks from any d
 ## Usage
 * Use '/trigger reach set ____' to set the reach distance in blocks (default: 5 blocks).
 * Pressing 'F3+B' allows you to see an outline of where the block will be placed at the default distance, 5 blocks.
+* Use '/function beyond_reach:disable' to remove all scoreboards and entities.
 
 ## Known issues*
 * Cannot place blocks that must be placed on specific blocks (grass on grass block, etc).
