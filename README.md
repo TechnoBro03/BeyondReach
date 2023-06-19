@@ -9,7 +9,7 @@ A simple Minecraft datapack that allows you to break and place blocks from any d
 * Works with every* block.
 
 ## Usage
-* Use '/trigger reach set ____' to set the reach distance in blocks.
+* Use '/trigger reach set ____' to set the reach distance in blocks (default: 5 blocks).
 * Pressing 'F3+B' allows you to see an outline of where the block will be placed at the default distance, 5 blocks.
 
 ## Known issues*
