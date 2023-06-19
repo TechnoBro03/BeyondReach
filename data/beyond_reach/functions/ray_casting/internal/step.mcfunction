@@ -8,5 +8,5 @@ execute as @s[tag=hitEnd] run function beyond_reach:ray_casting/hit/hit_end
 
 scoreboard players remove @s rayStep 1
 
-# 250 steps
+# Step forward
 execute as @s[tag=!stopRay,tag=!hitEnd] positioned ^ ^ ^0.5 run function beyond_reach:ray_casting/internal/step
