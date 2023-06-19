@@ -24,13 +24,6 @@ scoreboard players add @e[type=marker,tag=placedMarker] reach 1
 execute as @e[type=marker,tag=placedMarker,scores={reach=2..}] at @s run function beyond_reach:internal/clone_and_remove
 
 
-# Remove attack and target here
+# Reset interaction
 execute as @e[type=interaction,tag=linkedInteraction] run data remove entity @s attack
 execute as @e[type=interaction,tag=linkedInteraction] run data remove entity @s interaction
-
-
-# # Runs AS player AT entity
-# execute as @a at @e[type=!player] if score @e[limit=1,sort=nearest,type=!player] ID = @s ID run say hi
-
-# # Runs AS entity AT player
-# execute as @e[type=!player] at @a if score @p ID = @s ID run say hi
