@@ -4,7 +4,6 @@ A Minecraft datapack that allows you to break and place blocks from any distance
 ## Features
 * Break and place blocks from any distance (2-64 blocks, this is a limit set by Minecraft).
 * Place blocks in midair.
-* Customizable distance.
 * Multiplayer friendly.
 * Survival friendly.
 * Works with every block.
