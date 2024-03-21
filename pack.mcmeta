@@ -1,6 +1,6 @@
 {
     "pack" : {
-        "pack_format" : 27,
+        "pack_format" : 36,
         "description" : "A Minecraft datapack that allows you to break and place blocks from any distance, including in the air."
     }
 }
