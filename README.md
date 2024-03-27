@@ -9,9 +9,9 @@ A Minecraft datapack that allows you to break and place blocks from any distance
 * Works with every block.
 
 ## Usage
-* Use ```/trigger reach set X``` to set the reach distance (X) in blocks.
-* Use ```/trigger reach set 0``` to disable Beyond Reach for your player.
-* Use ```/trigger airPlace``` to enable/disable being able to place blocks in the air.
+* ```/trigger reach set X```: Set reach distance (X) in blocks.
+* ```/trigger reach set 0```: Disable Beyond Reach for your player.
+* ```/trigger airPlace```: Enable/disable being able to place blocks in the air.
 
 ## Installation
 * Click "Code" -> "Download ZIP".
