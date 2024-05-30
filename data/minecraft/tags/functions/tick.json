@@ -1,5 +1,5 @@
 {
     "values": [
-    "beyond_reach:tick"
+    "beyond_reach:internal/tick"
  ]
 }
