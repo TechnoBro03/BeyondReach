@@ -1,4 +1,5 @@
 # Sets block to barrier
+
 setblock ~ ~ ~ barrier keep
 
 # If player is too close, remove barrier
