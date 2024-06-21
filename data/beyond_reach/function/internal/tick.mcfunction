@@ -8,7 +8,7 @@ scoreboard players enable @a[] beyond_reach.reach
 execute as @a if score @s beyond_reach.reach matches -2147483647.. run function beyond_reach:internal/set_reach
 
 # Set air place
-execute as @a if score @s beyond_reach.airPlace matches 1.. run function beyond_reach:internal/set_air_place
+execute as @a unless score @s beyond_reach.airPlace matches 0 run function beyond_reach:internal/set_air_place
 
 # "Cast ray"
 execute as @a[] at @s run function beyond_reach:internal/summon_marker with storage beyond_reach
