@@ -6,6 +6,6 @@ scoreboard objectives remove beyond_reach.airPlaceTracker
 scoreboard objectives remove beyond_reach.reach
 data remove storage minecraft:beyond_reach reach
 
-execute as @a run attribute @s player.block_interaction_range base set 4.5
+execute as @a run attribute @s minecraft:block_interaction_range base reset
 
 tellraw @a ["","<",{"text":"Beyond Reach","color":"aqua"},"> Datapack ",{"text":"uninstalled","color":"red"}]
